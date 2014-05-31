@@ -1,0 +1,27 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: anon-gw-dns-conf
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/anon-gw-dns-conf
+Vcs-Browser: https://github.com/Whonix/anon-gw-dns-conf
+Vcs-Git: https://github.com/Whonix/anon-gw-dns-conf.git
+Standards-Version: 3.9.4
+
+Package: anon-gw-dns-conf
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: DNS configuration Anonymity Linux Distribution Gateways
+ Pointing /etc/resolv.conf to 127.0.0.1.
+ .
+ Whether a Anonymity Linux Distribution Gateway supports system DNS for its own
+ traffic in the clear or anonymized mainly depends on the Gateway's firewall.
+ .
+ Routing the workstation's system DNS through the anonymizer (also known as
+ Transparent DNS Proxy) or not is up to the Gateway's firewall as well.
