@@ -16,7 +16,7 @@ Package: anon-gw-dns-conf
 Architecture: all
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: resolvconf, openresolv, ${diverted-files}
 Description: DNS configuration Anonymity Linux Distribution Gateways
  Pointing /etc/resolv.conf to 127.0.0.1.
  .
