@@ -1,3 +1,21 @@
+commit a9276069301487a67b65010cd067422964a366e6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 28 13:42:58 2015 +0000
+
+    added debian/source/lintian-overrides with debian-watch-may-check-gpg-signature to fix lintian warning - https://phabricator.whonix.org/T277
+
+commit 7f4d18f3aa484a81e70bfd344a2eaa6b20a75516
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 26 23:15:43 2015 +0000
+
+    packaging, bumped Standards-Version from 3.9.4 to 3.9.6 for jessie support
+
+commit 4db6120e3f064fa8754db95fab728e09c5dd4fc8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 17:40:58 2015 +0000
+
+    bumped changelog version
+
 commit 96e78f851c50e8b1aad1ac8d63ca2fa4ed5010b0
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 18:40:53 2015 +0000
