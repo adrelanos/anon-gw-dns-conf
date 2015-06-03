@@ -1,3 +1,9 @@
+anon-gw-dns-conf (3:1.0-1) unstable; urgency=low
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 03 Jun 2015 14:58:56 +0000
+
 anon-gw-dns-conf (3:0.9-1) unstable; urgency=low
 
   * New upstream version (local package).
