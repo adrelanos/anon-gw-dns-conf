@@ -1,3 +1,19 @@
+commit 9d6a3671b4850238e35be331a4644a12da37b3e1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 5 20:08:36 2017 +0000
+
+    Disable systemd DNS resolver feature for Debian stretch
+    
+    Thanks to @HulaHoopWhonix for the report!
+    
+    https://phabricator.whonix.org/T471
+
+commit a1245ea0cdfdfc8a353fa4967e8812e2e99f6286
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 15:19:20 2017 +0000
+
+    bumped changelog version
+
 commit 4b18b25e19e512044c1a92c9189e9442ff79a6e9
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 08:35:23 2017 +0100
