@@ -1,3 +1,17 @@
+commit 229723d4e00f6a988628ce93e5750da9e43e9e21
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 17 12:26:49 2017 +0000
+
+    remove resolvconf and openresolv from Debian Conflicts:
+    
+    for better VPN support
+
+commit 0be2490cb256793c3b77392ca3bf13840aad72cc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 13:41:39 2017 +0000
+
+    bumped changelog version
+
 commit 5bec51d2cd7b4a65aefec48a761d0783d87892e1
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:48 2017 +0000
