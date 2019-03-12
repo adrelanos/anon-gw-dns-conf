@@ -1,3 +1,9 @@
+anon-gw-dns-conf (3:1.9-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 12 Mar 2019 11:13:52 +0000
+
 anon-gw-dns-conf (3:1.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
