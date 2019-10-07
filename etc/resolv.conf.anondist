@@ -6,8 +6,10 @@
 #### category networking
 #### gateway_only yes
 #### installed_by_default no
-#### description Configure to use torified DNS server for traffic originating
-## from Whonix-Gateway.
+#### description
+## Configure to use torified DNS server for traffic originating from
+## Whonix-Gateway.
+##
 ## Set <code>/etc/resolv.conf> to <code>nameserver 127.0.0.1</code>
 ## and comments.
 #### meta end
