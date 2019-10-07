@@ -1,6 +1,17 @@
 ## Copyright (C) 2012 - 2018 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
+#### meta start
+#### project Whonix
+#### category networking
+#### gateway_only yes
+#### installed_by_default no
+#### description Configure to use torified DNS server for traffic originating
+## from Whonix-Gateway.
+## Set <code>/etc/resolv.conf> to <code>nameserver 127.0.0.1</code>
+## and comments.
+#### meta end
+
 ## /etc/dhcp/dhclient-enter-hooks.d/nodnsupdate (package anon-gw-dhcp-conf) can
 ## prevent this file from getting overwritten by DHCP.
 ## If you want to disable that, run.
