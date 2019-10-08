@@ -10,7 +10,7 @@
 ## Configure to use torified DNS server for traffic originating from
 ## Whonix-Gateway.
 ##
-## Set <code>/etc/resolv.conf> to <code>nameserver 127.0.0.1</code>
+## Set <code>/etc/resolv.conf</code> to <code>nameserver 127.0.0.1</code>
 ## and comments.
 #### meta end
 
