@@ -1,3 +1,19 @@
+commit 64a2930dd80ac4d5f269ee7b83c7357fbdfb79f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 1 06:10:36 2020 -0500
+
+    delete lib/systemd/system/systemd-resolved.service.d/40_anon-dns-conf.conf
+    
+    no need to disable systemd-resolved here since anon-apps-config does that anyhow
+    
+    https://forums.whonix.org/t/install-anon-apps-config-on-whonix-gateway-by-default/8692
+
+commit a9d5160f61ca09f748c017dfa84e9e65f5054494
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 14 10:15:00 2019 +0000
+
+    bumped changelog version
+
 commit c651f399c0705228a210aede2b9d3e3e35340df3
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Oct 8 12:51:51 2019 +0000
