@@ -14,11 +14,6 @@
 ## and comments.
 #### meta end
 
-## /etc/dhcp/dhclient-enter-hooks.d/nodnsupdate (package anon-gw-dhcp-conf) can
-## prevent this file from getting overwritten by DHCP.
-## If you want to disable that, run.
-## sudo apt-get purge anon-gateway-dhcp-conf
-
 ## Torified DNS server for Gateway's own traffic.
 nameserver 127.0.0.1
 
