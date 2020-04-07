@@ -14,14 +14,16 @@
 ## and comments.
 #### meta end
 
+## Gateway own DNS torified setting.
 ## Torified DNS server for Gateway's own traffic.
 nameserver 127.0.0.1
 
+## Gateway own DNS Clearnet Setting.
 ## Advanced users only!
 ## Only if you know what you are doing!
-## If you do *not* want Gateway's own DNS
-## (This has nothing to do with Workstation's DNS.)
-## to be routed through Tor, but using clearnet DNS,
-## use the VirtualBox DHCP server below
-## and comment out the torified DNS server above.
+## If want Gateway's own DNS to use clearnet DNS,
+## comment out the torified DNS server above, and
+## comment in the clearnet DNS server below.
+## This has nothing to do with Workstation's DNS.
+## VirtualBox Clearnet DNS:
 #nameserver 10.0.2.3
